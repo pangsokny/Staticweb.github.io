@@ -1,0 +1,96 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      list-style: none;
+      font-family: 'Poppins',sans-serif;
+}
+#back{
+      width: 100%;
+      background-image: url(photo_2021-11-22_16-41-34.jpg);
+      background-size: cover;
+}
+.logo{
+      position: fixed;
+      background-color: #262626;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+}
+.logo img{
+      margin-left: 30px;
+}
+.button{
+      display: flex;
+      margin-left: 950px;
+}
+
+.button a{
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 3px;
+      padding: 3px 15px;
+      border: outset #81B441;
+      background-color: #81B441;
+      
+}
+.button a:hover{
+      background-color: #7AA93C;
+}
+.wine{
+      align-items: center;
+      margin-left: 500px;
+}
+.let{
+      text-align: center;
+      font-size: 35px;
+}
+.button1 a{
+      background-color: #52AA00;
+      text-decoration: none;
+      border-radius: 20px;
+      color: white;
+      padding: 9px 15px;
+      margin-left: 600px;
+}
+.botton1 a:hover{
+      background-color: #449D44;
+}
+.home{
+      width: 100%;
+      display: flex;
+      padding: 0px 120px 0px;
+}
+.home1 img{
+      padding: 30px;
+}
+.homelet a{
+      text-decoration: none;
+      padding-left: 40%;
+      color: black;
+}
+.home1 img:hover{
+      transition: 0.5s;
+      transform: scale(1.1);
+      z-index: 1;
+}
+.copyr{
+      font-size: 15px;
+      margin-left: 400px;
+}
+.copyr p{
+      color: black;
+}
+.copyr a{
+      color: darkgoldenrod;
+      text-decoration: none;
+
+}
+.copyr a:hover{
+      color: #1B846A;
+      text-decoration: underline;
+      transition: 0.5s;
+}
